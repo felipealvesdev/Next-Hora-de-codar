@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #444444;
+    color: #fff;
+    height: 70px;
+}
+.container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    list-style: none;
+}
+.container a{
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
+.container a:hover{
+    color: #ffd900;
+}
